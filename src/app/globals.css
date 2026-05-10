@@ -41,6 +41,14 @@
   --color-charcoal-light: #333333;
   --color-warm-gray: #6b6b6b;
   --color-footer-bg: #212121;
+
+  /* Seller Insights accent colors */
+  --color-insights-accent: #D85A30;
+  --color-positive: #3B6D11;
+  --color-negative: #A32D2D;
+  --color-warning-text: #854F0B;
+  --color-warning-bg: #FAEEDA;
+  --color-insights-muted: #B4B2A9;
 }
 
 :root {

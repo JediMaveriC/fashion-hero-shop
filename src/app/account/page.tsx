@@ -39,6 +39,23 @@ export default function AccountPage() {
         Welcome back to your FashionHero account.
       </p>
 
+      {/* Seller Dashboard */}
+      <section className="mb-10">
+        <h2 className="text-[12px] font-medium uppercase tracking-[0.8px] text-charcoal mb-4 pb-2 border-b border-black/10">
+          Twój sklep
+        </h2>
+        <Link
+          href="/insights"
+          className="flex items-center justify-between p-4 bg-[#FAECE7] border border-[#F5C4B3] rounded-lg hover:bg-[#F5DDD6] transition-colors"
+        >
+          <div>
+            <p className="text-[13px] font-medium text-[#993C1D]">Seller Insights</p>
+            <p className="text-[12px] text-[#993C1D]/70 mt-0.5">Dane o sprzedaży, zwrotach i benchmarkach kategorii</p>
+          </div>
+          <span className="text-[#993C1D] text-lg">→</span>
+        </Link>
+      </section>
+
       {/* Order History */}
       <section className="mb-10">
         <h2 className="text-[12px] font-medium uppercase tracking-[0.8px] text-charcoal mb-4 pb-2 border-b border-black/10">

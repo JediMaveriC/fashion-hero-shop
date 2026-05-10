@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  basePath: '/fashion-hero-shop',
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
